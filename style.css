@@ -1,0 +1,191 @@
+/*
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header style */
+.banner{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/banner/banner1.png');
+}
+.banner-title{
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    text-align: right;
+
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+}
+.btn{
+    color: #FFFFFF;
+    width: 109px;
+    height: 23px;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+
+}
+.section-description{
+    color:#757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* My plan styles */
+.my-plans{
+    margin-top: 130px;
+    
+}
+.stack-container{
+    display: flex;
+    gap: 30px;
+}
+.stack{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+}
+.stack-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.stack-description{
+    color: #757575;
+}
+/* positive mindset styles */
+.positive {
+    background-image:
+    linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+    url('images/watch.png');
+    border-radius: 8px;
+    height: 300px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: 100px;
+}
+/*  
+.positive{
+    width: 459px;
+    height: 182px;
+    font-size: large;
+}
+*/
+.call-title{
+    width: 459px;
+    height: 94px;
+    line-height: 47px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.btn-second{
+    color: #FD6E0A;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 40px;
+    border: 0;   
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+/* about section style */
+.about{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 80px 100px;
+    text-align: center;
+
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+
+}
+.section-description{
+    color:#757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+/* Future Style */
+.future{
+    display: flex;
+    gap: 100px;
+    background: black;
+    padding: 130px 200px;
+}
+.future{
+    text-align:left;
+}
+.future-title{
+    width: 148px;
+    height: 53px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.future-description{
+    width: 485px;
+    height: 78px;
+    color: #F8F8F8;
+}
+.email{
+    width: 485px;
+    height: 78px;
+    color: #F8F8F8;
+}
+.phone{
+    width: 485px;
+    height: 78px;
+    color: #F8F8F8;
+}
+.future input[type="email"], textarea{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+}
+input{
+    height: 50px;
+}
+.future a{
+    text-decoration: none;
+    width: 175px;
+    height: 46px;
+    gap: 20px;
+}
+.btn-third{
+    color: #F15B22;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px 15px; 
+    background: #FFFFFF;
+    border-radius: 5px;
+}
