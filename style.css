@@ -47,12 +47,18 @@
 /* My plan styles */
 .my-plans{
     background-repeat: no-repeat;
-    display: flex;
     justify-content: center;
     align-items: center;
     
 }
+.plan-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
 .stack-container{
+    justify-content: center;
     display: flex;
     gap: 30px;
 }
@@ -81,31 +87,26 @@
     color: white;
     padding: 20px;
     background-repeat: no-repeat;
-    background-position: 100px;
+    background-position: 200px;
 }
-/*  
-.positive{
-    width: 459px;
-    height: 182px;
-    font-size: large;
-}
-*/
 .call-title{
-    width: 459px;
-    height: 94px;
-    line-height: 47px;
-    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    width: 800px;
+    height: 30px;
     color: #FFFFFF;
 }
-.btn-second{
+/*.btn-second{
     color: #FD6E0A;
-    font-weight: 500;
-    font-size: 20px;
-    padding: 20px 40px;
-    border: 0;   
+    width: 800px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 20px; 
+    padding: 10px 15px;
     background: #FFFFFF;
     border-radius: 5px;
 }
+*/
 /* about section style */
 .about{
     background-color: whitesmoke;
