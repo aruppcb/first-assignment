@@ -27,10 +27,11 @@
 }
 .btn{
     color: #FFFFFF;
-    width: 160px;
-    height: 64px;
+    width: 109px;
+    height: 23px;
+    font-size: 15px;
+    line-height: 23px;
     background: #FD6E0A;
-    padding: 15px 30px;
     border-radius: 5px;
 }
 /* history */
