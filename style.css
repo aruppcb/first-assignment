@@ -27,10 +27,11 @@
 }
 .btn{
     color: #FFFFFF;
-    width: 109px;
-    height: 23px;
+    border: none;
+    text-align: center;
     font-size: 15px;
     line-height: 23px;
+    padding: 10px 24px;
     background: #FD6E0A;
     border-radius: 5px;
 }
@@ -106,7 +107,9 @@
 }
 .btn-second{
     color: #FD6E0A;
-    width: 50px;
+    border: none;
+    text-align: center;
+    width: 110px;
     height: 50px; 
     background: #FFFFFF;
     border-radius: 5px;
